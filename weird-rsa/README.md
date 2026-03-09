@@ -43,5 +43,44 @@ Optional:
 
 Run the demo:
 
-```bash
+```
 python3 demo.py
+
+You will be asked to enter a message.
+
+The script will then:
+
+    Generate keys
+
+    Encrypt the message
+
+    Print the encrypted data
+
+    Decrypt it back
+
+    Print the recovered message
+```
+
+##Running tests
+
+If you want to run tests later:
+```
+pip install pytest
+pytest -q
+```
+
+##Notes
+
+- This project is intentionally small and simplified
+- The encryption is text-only for now
+- It is designed for learning, experimentation, and understanding the math
+- It should not be used for real secure data protection
+
+##Future ideas
+###Possible future improvements:
+- Better key generation
+- Save/load keys from files
+- Save/load cipher from files
+- Seed experiments from files or machine data
+- Support for other data types later
+- Better command-line interface
