@@ -1,7 +1,7 @@
 #decrypt.py
 
 from math_utils import mod_pow
-from keygen import key_gen
+from keygen import generate_keys
 from encrypt import encrypt
 from codec import *
 

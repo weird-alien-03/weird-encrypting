@@ -18,19 +18,9 @@ def extended_gcd(a:int, b:int) -> tuple[int,int,int]:
     return g,x,y
 
 #mod inverse function
-def mod_inverse(e:int, phi:int) -> int:
-    for i in range(2,phi):
-        if (e*i)%phi == 1:
-            return i
-    return -1
+def mod_inverse(e: int, phi: int) -> int:
+        return pow(e, -1, phi)
 
 #mod power function
 def mod_pow(base:int, exp:int, mod:int) -> int:
-    res = 1
-    base = base%mod
-    while exp>0:
-        if exp & 1:
-            res = (res*base)%mod
-        base = (base * base) % mod
-        exp = exp//2
-    return res
+    return pow(base, exp, mod)
