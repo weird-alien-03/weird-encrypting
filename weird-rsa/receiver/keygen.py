@@ -1,8 +1,8 @@
 #keygen.py
 
-from math_utils import gcd, mod_inverse
-import seed_utils as su
-import prime_utils as pu
+from utils.math_utils import gcd, mod_inverse
+import utils.seed_utils as su
+import utils.prime_utils as pu
 
 def choose_e(phi:int) -> int:
     e = 65537

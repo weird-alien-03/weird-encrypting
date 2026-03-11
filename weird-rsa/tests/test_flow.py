@@ -1,8 +1,8 @@
 # tests/test_flow.py
 
-from keygen import generate_keys
-from encrypt import encrypt
-from decrypt import decrypt
+from receiver.keygen import generate_keys
+from sender.encrypt import encrypt
+from receiver.decrypt import decrypt
 
 
 def test_toy_mode_round_trip():

@@ -1,7 +1,7 @@
 # tests/test_prime_utils.py
 
-from seed_utils import seed_from_text
-from prime_utils import (
+from utils.seed_utils import seed_from_text
+from utils.prime_utils import (
     bytes_to_candidate,
     is_probable_prime,
     next_prime_from_seed,

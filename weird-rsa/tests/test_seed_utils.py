@@ -1,6 +1,6 @@
 # tests/test_seed_utils.py
 
-from seed_utils import seed_from_text, seed_from_file, seed_from_system
+from utils.seed_utils import seed_from_text, seed_from_file, seed_from_system
 
 
 def test_seed_from_text_is_reproducible():

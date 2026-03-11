@@ -1,10 +1,10 @@
 #demo.py
 
-from keygen import generate_keys
-from encrypt import encrypt
-from decrypt import decrypt
-from codec import cipher_to_string
-from storage import save_keys, load_keys, save_cipher, load_cipher
+from receiver.keygen import generate_keys
+from sender.encrypt import encrypt
+from receiver.decrypt import decrypt
+from utils.codec import cipher_to_string
+from utils.storage import save_keys, load_keys, save_cipher, load_cipher
 
 def main():
     print("Weird Encrypting Demo")

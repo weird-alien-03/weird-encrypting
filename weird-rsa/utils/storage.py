@@ -2,7 +2,7 @@
 #for storing data
 
 import json
-from codec import cipher_to_string, string_to_cipher
+from utils.codec import cipher_to_string, string_to_cipher
 
 def save_keys(public_key,private_key,filename="keys.json"):
     e,n1 = public_key

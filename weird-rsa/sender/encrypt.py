@@ -1,8 +1,8 @@
 #encrypt.py
 
-from math_utils import mod_pow
-from keygen import generate_keys
-from codec import cipher_to_string
+from utils.math_utils import mod_pow
+from receiver.keygen import generate_keys
+from utils.codec import cipher_to_string
 
 def encrypt(public_key,plaintext:str):
     e,n = public_key

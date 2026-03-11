@@ -1,9 +1,9 @@
 #decrypt.py
 
-from math_utils import mod_pow
-from keygen import generate_keys
-from encrypt import encrypt
-from codec import *
+from utils.math_utils import mod_pow
+from receiver.keygen import generate_keys
+from sender.encrypt import encrypt
+from utils.codec import *
 
 def decrypt(private_key, cipher:list):
     d,n = private_key

@@ -1,4 +1,4 @@
-# Weird Encrypting
+# Weird RSA-like
 
 A small educational RSA-like encryptor written in Python.
 
@@ -124,7 +124,6 @@ I built this project to understand:
 
 ## Possible next steps
 
-- Refactor into utils/, sender/, and receiver/
 - Improve command-line structure
 - Extend it to experiment with file encryption for formats such as images or WAV files.
 - Add cleaner key/cipher file formats
